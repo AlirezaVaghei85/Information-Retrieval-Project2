@@ -209,7 +209,3 @@ Result:          [ 5, 22 ]
 * **Author:** Alireza Vaghei
 * Developed as part of the **Information Retrieval** coursework at **Birjand University**.
 * Special thanks to NLTK maintainers for providing the Reuters dataset.
-
-```
-
-```
