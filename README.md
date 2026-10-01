@@ -136,9 +136,9 @@ Upon execution, the terminal displays the current index memory usage statistics 
 ======================================
 Index Memory Profiling
 ======================================
-Size Of Index: 14.52 MB
-Size Of Vocabs: 2.18 MB
-Size Of Posting: 12.34 MB
+Size Of Index: 63 MB
+Size Of Vocabs: 3 MB
+Size Of Posting: 60 MB
 
 1. Search for one query
 2. Search for two queries with AND
@@ -154,18 +154,18 @@ Enter your query: oil AND market
 
 No Preprocess:
 Query: oil AND market
-Documents retrieved: 412
-Doc IDs: ['10005', '10011', '10022', ...]
+Documents retrieved: 178
+Doc IDs: ['test/14833', 'test/14891', 'test/14892', ...]
 
 With Lower Case:
 Query: oil AND market
-Documents retrieved: 450
-Doc IDs: ['10005', '10011', '10015', ...]
+Documents retrieved: 188
+Doc IDs: ['test/14833', 'test/14891', 'test/14892', ...]
 
 With Stemming:
 Query: oil AND market
-Documents retrieved: 512
-Doc IDs: ['10001', '10005', ...]
+Documents retrieved: 274
+Doc IDs: ['test/14833', 'test/14840', 'test/14873', ...]
 
 ```
 
